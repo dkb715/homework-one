@@ -4,7 +4,7 @@ body {
         html {
             height: 960px;
             width: 100%;
-            background-color: gradient;
+            background-color: #dddddd;
         }
 head { box-sizing: border-box;
     width: 100%;
@@ -28,7 +28,7 @@ h1 {
     bottom: 0%;
 }
 p {
-    text-align: center;
+    text-align: left;
     
 }
 a {
@@ -52,8 +52,12 @@ h2 {
 section {
     border-style: solid;
     border-width: 5px;
+    text-align: left;
     border-color: gray(208, 173, 255);
-    text-align: center;
+    padding: 10px;
+    width: 100%;
+
+    
 }
 
 
@@ -62,11 +66,10 @@ section {
     color: #4aaaa5;
       text-align: left;
       text-emphasis-position: top;
-    
       font-size: 23pt;
      border-bottom-style: solid;
      border-bottom-color: gray;
-     margin-bottom: auto;
+     border-width: 100%;
   }
 
   
@@ -101,4 +104,77 @@ section {
       scroll-margin: 13%;
       
   }
- 
+ .box1 {
+    box-sizing: border-box;
+    width: 30%;
+    height: 25%;
+    background-color: #4aaaa5;
+    color: #c3e7e5;
+    text-align: center;
+    bottom: 0%;
+ }
+ .box2 {
+    box-sizing: content-box;
+    width: 30%;
+    height: 25%;
+    background-color: #4aaaa5;
+    color: #c3e7e5;
+    text-align: center;
+    bottom: 0%;
+ }
+.box3 {
+    box-sizing: content-box;
+    width: 30%;
+    height: 25%;
+    background-color: #4aaaa5;
+    color: #c3e7e5;
+    text-align: center;
+    bottom: 0%;
+    
+}
+.box4 
+{
+    box-sizing: content-box;
+    width: 30%;
+    height: 25%;
+    background-color: #4aaaa5;
+    color: #c3e7e5;
+    text-align: center;
+    bottom: 0%;
+}
+.box5 {
+    box-sizing: content-box;
+    width: 30%;
+    height: 25%;
+    background-color: #4aaaa5;
+    color: #c3e7e5;
+    float: center;
+    bottom: 0%;  
+}
+
+.info {
+    text-align: right;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .in2{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .button {
+    background-color: #4aaaa5; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
